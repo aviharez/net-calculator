@@ -332,7 +332,7 @@ input[type="number"]:focus {
 }
 
 .toggle-switch.active .toggle-slider {
-    transition: translateX(28px);
+    transform: translateX(28px);
 }
 
 .results-section {
