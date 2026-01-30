@@ -57,11 +57,11 @@
                             <span class="input-value" id="miscCostsDisplay">$10,000</span>
                         </div>
                         <div class="slider-container">
-                            <input type="range" id="miscCostsSlider" min="0" max="100000" step="1000" value="10000" aria-label="Miscellaneous Costs Slider">
+                            <input type="range" id="miscCostsSlider" min="0" max="1000000" step="1000" value="10000" aria-label="Miscellaneous Costs Slider">
                         </div>
                         <div class="text-input-wrapper">
                             <span class="currency-symbol">$</span>
-                            <input type="number" id="miscCostsInput" min="0" max="100000" step="1000" value="10000" aria-label="Miscellaneous Costs Input">
+                            <input type="number" id="miscCostsInput" min="0" max="1000000" step="1000" value="10000" aria-label="Miscellaneous Costs Input">
                         </div>
                     </div>
 
@@ -86,7 +86,7 @@
                         <div class="breakdown-chart">
                             <svg class="donut-chart" viewBox="0 0 200 200">
                                 <circle class="donut-segment net-proceeds" cx="100" cy="100" r="85" id="netProceedsSegment" />
-                                <circle class="donut segment costs" cx="100" cy="100" r="85" id="costsSegment" />
+                                <circle class="donut-segment costs" cx="100" cy="100" r="85" id="costsSegment" />
                             </svg>
                             <div class="donut-center">
                                 <div class="donut-value" id="netProceedsPercent">85%</div>
